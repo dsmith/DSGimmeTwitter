@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'DSGimmeTwitterTests' target in the 'DSGimmeTwitterTests' project
+//
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+#endif

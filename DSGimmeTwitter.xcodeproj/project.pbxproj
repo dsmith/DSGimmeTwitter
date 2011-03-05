@@ -1,0 +1,397 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4AB271391322FE5E0062BEB1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AB271381322FE5E0062BEB1 /* Foundation.framework */; };
+		4AB271441322FE5E0062BEB1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AB271431322FE5E0062BEB1 /* UIKit.framework */; };
+		4AB271451322FE5E0062BEB1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AB271381322FE5E0062BEB1 /* Foundation.framework */; };
+		4AB271471322FE5E0062BEB1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AB271461322FE5E0062BEB1 /* CoreGraphics.framework */; };
+		4AB2714A1322FE5E0062BEB1 /* libDSGimmeTwitter.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AB271351322FE5E0062BEB1 /* libDSGimmeTwitter.a */; };
+		4AB271501322FE5E0062BEB1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4AB2714E1322FE5E0062BEB1 /* InfoPlist.strings */; };
+		4AB271531322FE5E0062BEB1 /* DSGimmeTwitterTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 4AB271521322FE5E0062BEB1 /* DSGimmeTwitterTests.h */; };
+		4AB271551322FE5E0062BEB1 /* DSGimmeTwitterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AB271541322FE5E0062BEB1 /* DSGimmeTwitterTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4AB271481322FE5E0062BEB1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4AB2712C1322FE5E0062BEB1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4AB271341322FE5E0062BEB1;
+			remoteInfo = DSGimmeTwitter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4AB271351322FE5E0062BEB1 /* libDSGimmeTwitter.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libDSGimmeTwitter.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		4AB271381322FE5E0062BEB1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4AB2713C1322FE5E0062BEB1 /* DSGimmeTwitter-Prefix.pch */ = {isa = PBXFileReference; path = "DSGimmeTwitter-Prefix.pch"; sourceTree = "<group>"; };
+		4AB271421322FE5E0062BEB1 /* DSGimmeTwitterTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DSGimmeTwitterTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4AB271431322FE5E0062BEB1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		4AB271461322FE5E0062BEB1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		4AB2714D1322FE5E0062BEB1 /* DSGimmeTwitterTests-Info.plist */ = {isa = PBXFileReference; path = "DSGimmeTwitterTests-Info.plist"; sourceTree = "<group>"; };
+		4AB2714F1322FE5E0062BEB1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4AB271511322FE5E0062BEB1 /* DSGimmeTwitterTests-Prefix.pch */ = {isa = PBXFileReference; path = "DSGimmeTwitterTests-Prefix.pch"; sourceTree = "<group>"; };
+		4AB271521322FE5E0062BEB1 /* DSGimmeTwitterTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DSGimmeTwitterTests.h; sourceTree = "<group>"; };
+		4AB271541322FE5E0062BEB1 /* DSGimmeTwitterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DSGimmeTwitterTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4AB271321322FE5E0062BEB1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4AB271391322FE5E0062BEB1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4AB2713E1322FE5E0062BEB1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4AB271441322FE5E0062BEB1 /* UIKit.framework in Frameworks */,
+				4AB271451322FE5E0062BEB1 /* Foundation.framework in Frameworks */,
+				4AB271471322FE5E0062BEB1 /* CoreGraphics.framework in Frameworks */,
+				4AB2714A1322FE5E0062BEB1 /* libDSGimmeTwitter.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4AB2712A1322FE5E0062BEB1 = {
+			isa = PBXGroup;
+			children = (
+				4AB2713A1322FE5E0062BEB1 /* DSGimmeTwitter */,
+				4AB2714B1322FE5E0062BEB1 /* DSGimmeTwitterTests */,
+				4AB271371322FE5E0062BEB1 /* Frameworks */,
+				4AB271361322FE5E0062BEB1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4AB271361322FE5E0062BEB1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4AB271351322FE5E0062BEB1 /* libDSGimmeTwitter.a */,
+				4AB271421322FE5E0062BEB1 /* DSGimmeTwitterTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4AB271371322FE5E0062BEB1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4AB271381322FE5E0062BEB1 /* Foundation.framework */,
+				4AB271431322FE5E0062BEB1 /* UIKit.framework */,
+				4AB271461322FE5E0062BEB1 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4AB2713A1322FE5E0062BEB1 /* DSGimmeTwitter */ = {
+			isa = PBXGroup;
+			children = (
+				4AB2713B1322FE5E0062BEB1 /* Supporting Files */,
+			);
+			path = DSGimmeTwitter;
+			sourceTree = "<group>";
+		};
+		4AB2713B1322FE5E0062BEB1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4AB2713C1322FE5E0062BEB1 /* DSGimmeTwitter-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4AB2714B1322FE5E0062BEB1 /* DSGimmeTwitterTests */ = {
+			isa = PBXGroup;
+			children = (
+				4AB271521322FE5E0062BEB1 /* DSGimmeTwitterTests.h */,
+				4AB271541322FE5E0062BEB1 /* DSGimmeTwitterTests.m */,
+				4AB2714C1322FE5E0062BEB1 /* Supporting Files */,
+			);
+			path = DSGimmeTwitterTests;
+			sourceTree = "<group>";
+		};
+		4AB2714C1322FE5E0062BEB1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4AB2714D1322FE5E0062BEB1 /* DSGimmeTwitterTests-Info.plist */,
+				4AB2714E1322FE5E0062BEB1 /* InfoPlist.strings */,
+				4AB271511322FE5E0062BEB1 /* DSGimmeTwitterTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		4AB271331322FE5E0062BEB1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		4AB271341322FE5E0062BEB1 /* DSGimmeTwitter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4AB271581322FE5E0062BEB1 /* Build configuration list for PBXNativeTarget "DSGimmeTwitter" */;
+			buildPhases = (
+				4AB271311322FE5E0062BEB1 /* Sources */,
+				4AB271321322FE5E0062BEB1 /* Frameworks */,
+				4AB271331322FE5E0062BEB1 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DSGimmeTwitter;
+			productName = DSGimmeTwitter;
+			productReference = 4AB271351322FE5E0062BEB1 /* libDSGimmeTwitter.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		4AB271411322FE5E0062BEB1 /* DSGimmeTwitterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4AB2715B1322FE5E0062BEB1 /* Build configuration list for PBXNativeTarget "DSGimmeTwitterTests" */;
+			buildPhases = (
+				4AB2713D1322FE5E0062BEB1 /* Sources */,
+				4AB2713E1322FE5E0062BEB1 /* Frameworks */,
+				4AB2713F1322FE5E0062BEB1 /* Resources */,
+				4AB271401322FE5E0062BEB1 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4AB271491322FE5E0062BEB1 /* PBXTargetDependency */,
+			);
+			name = DSGimmeTwitterTests;
+			productName = DSGimmeTwitterTests;
+			productReference = 4AB271421322FE5E0062BEB1 /* DSGimmeTwitterTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4AB2712C1322FE5E0062BEB1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = CrashCorp;
+			};
+			buildConfigurationList = 4AB2712F1322FE5E0062BEB1 /* Build configuration list for PBXProject "DSGimmeTwitter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4AB2712A1322FE5E0062BEB1;
+			productRefGroup = 4AB271361322FE5E0062BEB1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4AB271341322FE5E0062BEB1 /* DSGimmeTwitter */,
+				4AB271411322FE5E0062BEB1 /* DSGimmeTwitterTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4AB2713F1322FE5E0062BEB1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4AB271501322FE5E0062BEB1 /* InfoPlist.strings in Resources */,
+				4AB271531322FE5E0062BEB1 /* DSGimmeTwitterTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4AB271401322FE5E0062BEB1 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4AB271311322FE5E0062BEB1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4AB2713D1322FE5E0062BEB1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4AB271551322FE5E0062BEB1 /* DSGimmeTwitterTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4AB271491322FE5E0062BEB1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4AB271341322FE5E0062BEB1 /* DSGimmeTwitter */;
+			targetProxy = 4AB271481322FE5E0062BEB1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4AB2714E1322FE5E0062BEB1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4AB2714F1322FE5E0062BEB1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4AB271561322FE5E0062BEB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4AB271571322FE5E0062BEB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		4AB271591322FE5E0062BEB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DSTROOT = /tmp/DSGimmeTwitter.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DSGimmeTwitter/DSGimmeTwitter-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4AB2715A1322FE5E0062BEB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DSTROOT = /tmp/DSGimmeTwitter.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DSGimmeTwitter/DSGimmeTwitter-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		4AB2715C1322FE5E0062BEB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DSGimmeTwitterTests/DSGimmeTwitterTests-Prefix.pch";
+				INFOPLIST_FILE = "DSGimmeTwitterTests/DSGimmeTwitterTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		4AB2715D1322FE5E0062BEB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DSGimmeTwitterTests/DSGimmeTwitterTests-Prefix.pch";
+				INFOPLIST_FILE = "DSGimmeTwitterTests/DSGimmeTwitterTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4AB2712F1322FE5E0062BEB1 /* Build configuration list for PBXProject "DSGimmeTwitter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4AB271561322FE5E0062BEB1 /* Debug */,
+				4AB271571322FE5E0062BEB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4AB271581322FE5E0062BEB1 /* Build configuration list for PBXNativeTarget "DSGimmeTwitter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4AB271591322FE5E0062BEB1 /* Debug */,
+				4AB2715A1322FE5E0062BEB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4AB2715B1322FE5E0062BEB1 /* Build configuration list for PBXNativeTarget "DSGimmeTwitterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4AB2715C1322FE5E0062BEB1 /* Debug */,
+				4AB2715D1322FE5E0062BEB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4AB2712C1322FE5E0062BEB1 /* Project object */;
+}
