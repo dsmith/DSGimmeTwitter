@@ -30,13 +30,13 @@
 /* Begin PBXFileReference section */
 		4AB271351322FE5E0062BEB1 /* libDSGimmeTwitter.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libDSGimmeTwitter.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		4AB271381322FE5E0062BEB1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		4AB2713C1322FE5E0062BEB1 /* DSGimmeTwitter-Prefix.pch */ = {isa = PBXFileReference; path = "DSGimmeTwitter-Prefix.pch"; sourceTree = "<group>"; };
+		4AB2713C1322FE5E0062BEB1 /* DSGimmeTwitter-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DSGimmeTwitter-Prefix.pch"; sourceTree = "<group>"; };
 		4AB271421322FE5E0062BEB1 /* DSGimmeTwitterTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DSGimmeTwitterTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4AB271431322FE5E0062BEB1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		4AB271461322FE5E0062BEB1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		4AB2714D1322FE5E0062BEB1 /* DSGimmeTwitterTests-Info.plist */ = {isa = PBXFileReference; path = "DSGimmeTwitterTests-Info.plist"; sourceTree = "<group>"; };
+		4AB2714D1322FE5E0062BEB1 /* DSGimmeTwitterTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DSGimmeTwitterTests-Info.plist"; sourceTree = "<group>"; };
 		4AB2714F1322FE5E0062BEB1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		4AB271511322FE5E0062BEB1 /* DSGimmeTwitterTests-Prefix.pch */ = {isa = PBXFileReference; path = "DSGimmeTwitterTests-Prefix.pch"; sourceTree = "<group>"; };
+		4AB271511322FE5E0062BEB1 /* DSGimmeTwitterTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DSGimmeTwitterTests-Prefix.pch"; sourceTree = "<group>"; };
 		4AB271521322FE5E0062BEB1 /* DSGimmeTwitterTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DSGimmeTwitterTests.h; sourceTree = "<group>"; };
 		4AB271541322FE5E0062BEB1 /* DSGimmeTwitterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DSGimmeTwitterTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */

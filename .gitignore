@@ -1,0 +1,4 @@
+*.pbxuser
+build
+*.mode1v3
+xcuserdata

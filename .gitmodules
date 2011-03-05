@@ -1,0 +1,3 @@
+[submodule "Resources/3rd-Party/Oauth2Client"]
+	path = Resources/3rd-Party/Oauth2Client
+	url = https://github.com/dsmith/OAuth2Client.git
